@@ -1,0 +1,15 @@
+{% comment %}
+  Snippet: mi-carrito-widget.liquid
+  Descripción: Widget de carrito rápido para Shopify
+{% endcomment %}
+
+<div id="mi-widget-shopify" 
+     data-nombre-producto="{{ product.title }}" 
+     data-precio="{{ product.price | money_without_currency | replace: ',', '.' }}">
+</div>
+
+<!-- Incluye el CSS del widget -->
+<link rel="stylesheet" href="{{ 'widget.css' | asset_url }}">
+
+<!-- Incluye el JS del widget -->
+<script src="{{ 'widget.js' | asset_url }}" defer></script>
