@@ -1,0 +1,78 @@
+
+.mi-widget {
+  border: 2px solid #e2e2e2;
+  border-radius: 16px;
+  padding: 16px;
+  max-width: 360px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  background-color: #fff;
+}
+
+.mi-widget h3 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+.mi-widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 12px 0;
+}
+
+.mi-widget li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.controles button {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin: 0 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.controles button:hover {
+  background: #444;
+}
+
+#finalizar-compra {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#finalizar-compra:hover {
+  background-color: #0056b3;
+}
+
+#mi-widget-shopify {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+
+@media (max-width: 480px) {
+  .mi-widget {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+  }
+}
